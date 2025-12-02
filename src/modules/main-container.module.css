@@ -1,0 +1,115 @@
+.mainContainer {
+  max-width: 1440px;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.mainImg {
+  object-fit: cover;
+  height: 100dvh;
+  width: 100%;
+}
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translate(-50%, 0);
+}
+.coffeeForm {
+  background-color: rgba(189, 131, 80, 0.878);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.coffeeForm input {
+  padding: 5px 10px;
+  border: rgb(189, 131, 80);
+  border-radius: 8px;
+}
+.coffeeSameStyle {
+  width: 300px;
+}
+.selectBox {
+  background-color: rgb(87, 54, 26);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.selectButton {
+  width: 100%;
+  border: rgb(189, 131, 80);
+  background-color: rgba(228, 169, 118, 0.796);
+  border-radius: 8px;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 3px 10px;
+  border-radius: 8px;
+
+  background-color: rgb(87, 54, 26);
+}
+.stock label {
+  color: rgb(189, 131, 80);
+}
+
+.navigation {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%, 0);
+  display: flex;
+  gap: 20px;
+}
+.navigation a {
+  background-color: rgba(87, 54, 26, 0.829);
+  color: rgb(229, 179, 136);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 3px white, inset -1px -1px 3px white;
+}
+.coffeeInfoSection {
+  background-color: rgba(228, 169, 118, 0.796);
+  width: 100%;
+  border-radius: 10px;
+}
+.coffeeInfoSection,
+.coffeeInfoSection th,
+.coffeeInfoSection td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+.DeleteIcon {
+  background-color: transparent;
+}
+.DeleteIcon img {
+  width: 20px;
+  height: 20px;
+}
+.scrollOverflow {
+  max-height: 300px;
+  overflow-y: auto;
+}
+/* .coffeeInfoItem {
+  background-color: rgb(87, 54, 26);
+  display: flex;
+  color: rgb(229, 179, 136);
+  border-radius: 8px;
+  gap: 20px;
+  justify-content: space-around;
+}
+.coffeeInfoItem p {
+  background-color: rgba(212, 180, 152, 0.7);
+  padding: 0 10px;
+  color: rgb(87, 54, 26);
+  border-radius: 8px;
+} */
